@@ -1,7 +1,7 @@
 console.log("Loop One");
 var num = -10;
 
-while(num < 19){
+while(num < 20){
 	console.log(num);
 	num++;
 }
@@ -9,12 +9,11 @@ while(num < 19){
 console.log("//////////////////////////");
 console.log("Loop Two");
 var num1 = 10;
-while(num1 < 40){
-	if(num1 % 2 === 0){
+while(num1 < 41){
 	console.log(num1);
-	}
-	num1++;
+	num1+=2;
 }
+
 console.log("//////////////////////////");
 console.log("Loop Three");
 
