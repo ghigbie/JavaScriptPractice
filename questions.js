@@ -8,3 +8,9 @@ var ageSentence = "You are " + age + " " + "years old.";
 
 console.log(nameSentence);
 console.log(ageSentence);
+
+//ES6 sytax
+console.log("//////////////////////")
+
+console.log(`Your full name is ${firstName} ${lastName}`);
+console.log(`Your are ${age} years old.`);
