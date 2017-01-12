@@ -5,16 +5,17 @@ runGame();
 function runGame(){
 	enteredNumber = prompt("Guess my magic number. Please choose a number.");
 
-	if(enteredNumber < magicNumber){
+
+	if(Number(enteredNumber) === magicNumber){
+		alert(`You guessed the magic number of ${enteredNumber}!!!`);
+	}
+	else if(Number(enteredNumber) < magicNumber){
 		alert(`Please choose a number that is greater tham ${enteredNumber}`);
 		runGame();
 	}
-	else if(enteredNumber > magicNumber){
+	else if(Number(enteredNumber) > magicNumber){
 		alert(`Please choose a number that is less tham ${enteredNumber}`);
 		runGame();
-	}
-	else{
-		alert(`You guessed the magic number of ${enteredNumber}!!!`);
 	}
 
 }
