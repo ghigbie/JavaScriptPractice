@@ -6,3 +6,5 @@ var ageDays = ageYears*365.25;
 alert(`You've been alive for roughly ${ageDays} days`);
 
 console.log(`You've been alive for roughly ${ageDays} days`);
+
+// javascript performs type coersion with a == but not with === (which have to be of equal type and value)
