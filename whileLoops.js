@@ -15,14 +15,19 @@ while(num1 < 40){
 }
 
 var num3 = 300;
-while(num3 < 333 && num3 % 2 === 1){
+while(num3 < 333){
+    if(num3 % 2 === 1){
 	console.log(num3);
-	num++
+	}
+	num++;
 }
 
 var num4 = 4;
-while((num4 < 50) && (num4 % 5 === 0) && (num4 % 3 === 0)){
+while (num4 < 50){
+	if((num4 % 5 === 0) && (num4 % 3 === 0)){
 	console.log(num4);
+	}
+	num4++;
 }
 
 
