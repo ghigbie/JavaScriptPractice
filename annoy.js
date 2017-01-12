@@ -4,7 +4,12 @@ annoy();
 
  function annoy(){
  	answer = prompt("Are we there yet?");
- 	while(answer !== "yes" || answer !== "yeah"){
+ 	
+ 	if(answer === "yes" || answer === "yeah"){
+ 		alert("Yay! We finially made it!");
+ 	}
+ 	else{
  		annoy();
  	}
+ 	
  }
