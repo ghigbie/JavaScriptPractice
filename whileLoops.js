@@ -1,7 +1,7 @@
 console.log("Loop One");
 var num = -10;
 
-while(num < 20){
+while(num <= 19){
 	console.log(num);
 	num++;
 }
@@ -18,19 +18,20 @@ console.log("//////////////////////////");
 console.log("Loop Three");
 
 var num3 = 300;
-while(num3 < 333){
-    if(num3 % 2 === 1){
-	console.log(num3);
+while(num3 <= 333){
+    if(num3 % 2 !== 0){
+		console.log(num3);
 	}
-	num++;
+	num3++;
 }
+
 console.log("//////////////////////////");
 console.log("Loop Four");
 
 var num4 = 4;
 while (num4 < 50){
-	if((num4 % 5 === 0) && (num4 % 3 === 0)){
-	console.log(num4);
+	if(num4 % 5 === 0 && num4 % 3 === 0){
+		console.log(num4);
 	}
 	num4++;
 }
