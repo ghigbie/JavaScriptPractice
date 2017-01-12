@@ -10,7 +10,7 @@ function runGame(){
 		runGame();
 	}
 	else if(enteredNumber > magicNumber){
-		alert(`Please choose a number that is less tham ${enteredumber}`);
+		alert(`Please choose a number that is less tham ${enteredNumber}`);
 		runGame();
 	}
 	else{
