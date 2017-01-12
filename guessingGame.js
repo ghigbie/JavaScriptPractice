@@ -10,11 +10,11 @@ function runGame(){
 		alert(`You guessed the magic number of ${enteredNumber}!!!`);
 	}
 	else if(enteredNumber < magicNumber){
-		alert(`Please choose a number that is greater tham ${enteredNumber}`);
+		alert(`Please choose a number that is greater than ${enteredNumber}`);
 		runGame();
 	}
 	else{
-		alert(`Please choose a number that is less tham ${enteredNumber}`);
+		alert(`Please choose a number that is less than ${enteredNumber}`);
 		runGame();
 	}
 
