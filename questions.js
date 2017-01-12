@@ -7,4 +7,4 @@ var nameSentence = "Your full name is " + firstName + " " + lastName + ".";
 var ageSentence = "You are " + age + " " + "years old.";
 
 console.log(nameSentence);
-console.log(ageSentence;
+console.log(ageSentence);
