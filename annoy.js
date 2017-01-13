@@ -17,7 +17,7 @@ annoy();
 
  function annoy2(){
 
- 	while(answer !== "yes"){
+ 	while(answer !== "yes" && answer !== "yeah"){
  		answer = prompt("Are we there yet?");
  		annoy2();
  	}
